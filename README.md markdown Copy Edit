@@ -1,0 +1,29 @@
+# 📈 Stock Predictor App
+
+A real-time stock market predictor built with Streamlit.
+
+## Features
+- Fetches live stock data via yfinance
+- Predicts next 7 days' closing price using Linear Regression
+- Interactive Plotly charts
+- CSV download of predictions
+- Supports multiple tickers
+
+## Live Demo
+[Deploy this app on Streamlit Cloud](https://streamlit.io/cloud)
+
+## Usage
+1. Input ticker(s), date range.
+2. Click `Predict: TICKER`.
+3. View data, prediction, and interactive chart.
+4. Download CSV if needed.
+
+## Built With
+- Python
+- Streamlit
+- yfinance
+- scikit-learn
+- Plotly
+
+## Authors
+Team of four BE Computer students from SPPU.
